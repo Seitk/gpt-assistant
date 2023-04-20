@@ -1,0 +1,10 @@
+version: "3"
+services:
+  gpt-assistant:
+    build: .
+    container_name: gpt-assistant
+    environment:
+      HOME_ASSISTANT_API_TOKEN: 
+      HOME_ASSISTANT_URL: 
+      OPENAI_API_KEY: 
+    network_mode: host
